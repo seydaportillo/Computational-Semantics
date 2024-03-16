@@ -95,7 +95,3 @@ def total_sense_combinations(sentence):
 for i, sentence in enumerate([sentence1, sentence2, sentence3], start=1):
     print(f"Sentence {i}: {sentence}")
     print(f"Total sense combinations: {total_sense_combinations(sentence)}\n")
-
-#12  [Adapted from J&M, ex. in chapter 23] Using WordNet, tag each open-class word in your mini-corpus with its correct sense tag (synset).
-
-"""I couldn't manage this one."""
