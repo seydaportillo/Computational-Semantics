@@ -33,8 +33,5 @@ print()
 print_verb_hyponyms('tie')
 print()
 
-#14 [Optional for oranges.] Do code that reproduces (approximately) Figure 23.5 from Jurafsky and Martin.
-#15 Do code that extracts the lexical relations for the words in Figure 23.3 (e.g., that meal.n.01 is a hypernym of breakfast.n.01).
-#
-#I couldnt figure out how to do this.
+
 
