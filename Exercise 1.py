@@ -117,8 +117,6 @@ for study_synset in study_synsets_noun:
 ---
 ★ **Exercise 8:** Do the same for a couple of words in a language that you speak, is in Open Multilingual WordNet, and is not English. How well does WordNet represents the semantics of your chosen language?
 """
-
-# Oranges:
 # Try definining a function that prints the relevant information
 # for a word in your chosen language
 # and takes a word as argument
@@ -142,8 +140,7 @@ word_lemma_list('market','ita')
 """Mercato and commercio can be substituted by each other but still are not identical. It seems like WordNet has a very limited representation in Italian compared to English but still better represented than Spanish.
 
 ---
-★ **Exercise 9:** For all languages in WordNet, print how many lemmas the language has in WordNet. (Even when efficiently coded this can take a minute to run.) Which are the 5 languages that are best represented? And the 5 languages that have the lowest coverage? (Remember the ISO code.) *Apples*: do code that prints this list in reversed order of coverage (language with most coverage first, with least coverage last).
-"""
+★ **Exercise 9:** For all languages in WordNet, print how many lemmas the language has in WordNet. (Even when efficiently coded this can take a minute to run.) Which are the 5 languages that are best represented? And the 5 languages that have the lowest coverage? (Remember the ISO code.) 
 
 print('Number of lemmas per language:')
 languages = ['als','arb','bul','cat','cmn','dan','ell','eng','eus','fin','fra','glg','heb','hrv','ind','isl','ita','ita_iwn','jpn','lit','nld','nno','nob','pol','por','ron','slk','slv','spa','swe','tha','zsm']
@@ -169,10 +166,7 @@ for lang, ratio in bottom_5_languages:
     print(f"{lang.capitalize()}: {ratio:.4f}")
 
 """---
-★ **Exercise 10:** Do code that prints the hypernyms for each of the synsets of the following words: 'collaboration', 'red' (as adjective), 'cat' (as noun). Discuss the results.
-"""
 
-# Oranges:
 # Try definining a function that prints the hypernyms of the synsets of a word
 def print_hypernyms(word):
     synsets = wordnet.synsets(word)
